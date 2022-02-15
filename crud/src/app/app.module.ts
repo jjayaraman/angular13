@@ -5,17 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { SearchComponent } from './components/search/search.component';
-import { ParentComponent } from './components/parent/parent.component';
-import { ChildComponent } from './components/child/child.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    SearchComponent,
-    ParentComponent,
-    ChildComponent,
+    SearchComponent
+
   ],
   imports: [
     BrowserModule,
