@@ -1,0 +1,22 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <span>Angular 13 - Basics</span>
+</div>
+
+<div class="content" role="main">
+
+
+  <!-- Footer -->
+  <footer>
+  </footer>
+
+</div>
+
+
+<a routerLink="/login" routerLinkActive="false" >Login</a>
+<a routerLink="/search" *ngIf="isLoggedIn">Search</a>
+
+<router-outlet></router-outlet>
+
+
+<app-parent></app-parent>
